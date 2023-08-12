@@ -1,0 +1,61 @@
+body{
+   margin:100%;
+   padding:100%;
+}
+#particles-js{
+	background: linear-gradient(to right, #333745,#D55F8F,#8BDFE2);	
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+   hight:100%;
+   width:100%;
+}
+.content{
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
+.content h1{
+	font-size: 8vh;
+	color: white;
+}
+h1{
+	display: block;
+	font-size: 5em;
+	font-weight: bold;
+}
+.content p{
+	padding-bottom: 5px;
+	font-size: 4vh;
+	color:  #D5CCCC;
+}
+.content p.link{
+	font-size: 3vh;
+	color: blue;
+}
+.content p{
+	padding-bottom: 5px;
+	font-size: 4vh;
+	color:  white;
+}
+.content a{
+	color:  #D5CCCC;
+	text-decoration: unset; 
+}
+.sm {
+	padding-right: 20%;
+	position: center;
+}
+@keyframes aaa {
+	0%{
+		left: -110%;
+	    top: 90%;
+	}50%{
+		left: 30%;
+	    top: -30%;
+	}100%{
+		left: -10%;
+	    top: -10%;
+	}
+}
